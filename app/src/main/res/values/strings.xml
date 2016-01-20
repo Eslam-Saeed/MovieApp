@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="movie_details">Movie Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pref_sort_by_default">popularity.desc</string>
+    <string name="pref_sort_by_popularity">popularity.desc</string>
+    <string name="pref_sort_by_heighset_rated">vote_average.desc</string>
+    <string name="key_favourite">something</string>
+
+
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="action_favourite">Favourite</string>
+    <string name="action_heighRate">Highest­Rated</string>
+    <string name="action_mostPopular">Most Popular</string>
+
+</resources>

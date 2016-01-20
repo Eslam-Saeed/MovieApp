@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#E0E0E0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Movie Name"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/textView_moviename"
+
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imageMovie_detail"
+        android:layout_below="@+id/textView_moviename"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Year"
+        android:id="@+id/textView_yearRelease"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignTop="@+id/imageMovie_detail"
+        android:layout_toRightOf="@+id/imageMovie_detail"
+        android:layout_toEndOf="@+id/imageMovie_detail" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Rate"
+        android:id="@+id/textView_movieRate"
+        android:layout_below="@+id/textView_yearRelease"
+        android:layout_alignLeft="@+id/textView_yearRelease"
+        android:layout_alignStart="@+id/textView_yearRelease" />
+
+    <Button
+        style="?android:attr/buttonStyle"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:textSize="12dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Mark as favourite"
+        android:id="@+id/button_markAsFavourite"
+        android:layout_below="@+id/textView_movieRate"
+        android:layout_alignLeft="@+id/textView_movieRate"
+        android:layout_alignStart="@+id/textView_movieRate" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="15dip"
+        android:text="Movie details overview"
+        android:textSize="15dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/textView_movieOverview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageMovie_detail"
+        android:layout_alignRight="@+id/textView_moviename"
+        android:layout_alignEnd="@+id/textView_moviename" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView_movieOverview"
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/BlackLine"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/trailers_text"
+        android:textSize="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="Trailers : "
+        android:layout_below="@+id/BlackLine"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"/>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_mostPopular"
+        android:orderInCategory="100"
+        android:title="@string/action_mostPopular"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_heighRate"
+        android:orderInCategory="100"
+        android:title="@string/action_heighRate"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_favourite"
+        android:orderInCategory="100"
+        android:title="@string/action_favourite"
+        app:showAsAction="never" />
+</menu>
